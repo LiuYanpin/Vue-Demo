@@ -48,3 +48,14 @@ var app6 = new Vue({
     message: 'Hello Vue!'
   }
 })
+
+Vue.component('todo-item', {
+  template: '<li>这是个代办项</li>'
+})
+
+var app7 = new Vue({
+  el: '#app-7',
+  data: {
+
+  }
+})
