@@ -72,3 +72,15 @@ var app8 = new Vue({
     rawHTML: '<p>This is a test<span style="color: red">This should be red.</span></p>'
   }
 })
+
+var app9 = new Vue({
+  el: '#app-9',
+  data: {
+    dynamicId: 'test'
+  }
+})
+
+var app10 = new Vue({
+  el: 'app-10',
+  isButtonDisabled: true
+})
