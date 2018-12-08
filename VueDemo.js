@@ -65,3 +65,10 @@ var app7 = new Vue({
     ]
   }
 })
+
+var app8 = new Vue({
+  el: '#app-8',
+  data: {
+    rawHTML: '<span style="color: red">This should be red.</span>'
+  }
+})
